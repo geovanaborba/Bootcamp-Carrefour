@@ -1,0 +1,23 @@
+# Desafio de Projeto sobre Git/GitHub da DIO
+Repositório criado para o desafio de projeto
+
+Git: foi criado em 2005; sistema de versionamento de código distribuído. Criado pelo criador do Linux -> Linus Torvaldis.
+
+GitHub: empresa da Microsoft.
+
+COMANDOS WINDOWS
+mudar de pasta: -cd
+listar pastas: -dir
+criar pastas/arquivos: -mkdir
+deletar pastar/arquivos: -del / rmdir (del deleta arquivos, rmdir deleta pastas)
+voltar uma pasta: cd ..
+limpar: cls (clear screen)
+
+COMANDOS UNIX (Linux e Apple são derivados)
+
+mudar de pasta: -cd (change directory)
+listar pastas: -ls (list)
+criar pastas/arquivos: -mkdir (make directory)
+deletar pastar/arquivos: -rm -rf
+voltar uma pasta: cd ..
+limpar: clear ou CTRL+L

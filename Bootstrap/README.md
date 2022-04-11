@@ -14,9 +14,11 @@
 
 [Como configurar e utilizar o Bootstrap?](https://rockcontent.com/br/blog/bootstrap/)
 
+# 
+
 [...]Para começar a usar o Bootstrap em uma página, é preciso adicionar a referência dos principais arquivos do framework na página principal da aplicação. Confira, a seguir, o código de uma página HTML com todas as referências necessárias para que o framework funcione.
 
-`<!doctype html>
+```<!doctype html>
 <html lang="en">
  <head>
    <!-- Required meta tags -->
@@ -35,8 +37,8 @@
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
  </body>
 </html>
-<Fonte: site Getbootstrap.com>`
-
+<Fonte: site Getbootstrap.com>
+```
 **É importante seguir a ordem das referências conforme o exemplo. Portanto, a primeira referência deve ser ao arquivo bootstrap.css localizado na tag <head>. Já as referências aos arquivos JavaScript devem ser inseridas no final da página, antes de encerrar a tag </body>. A ordem para os scripts devem ser: JQuery, Popper.js e Bootstrap.js.**
 
 Vale ressaltar que a forma de configurar o Bootstrap varia de acordo com o tipo de ambiente em que ele está. No WordPress, por exemplo, também é possível adicionar o framework por meio da alteração do arquivo functions.php do template. 

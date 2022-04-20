@@ -71,7 +71,7 @@ header nav a:hover, i:hover{
 
 .filme-principal-anime {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("/img/mugen-train.jpg");
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(../img/mugen-train.jpg);
     height:600px;
     background-size: cover;
 
@@ -83,7 +83,7 @@ header nav a:hover, i:hover{
 
 .filme-principal-filmes {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("/img/minha-mae-e-uma-peca.jpg");
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(../img/minha-mae-e-uma-peca.jpg);
     height:600px;
     background-size: cover;
 
@@ -95,7 +95,7 @@ header nav a:hover, i:hover{
 
 .filme-principal-series {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("/img/como-conheci-sua-mae.jpg");
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(../img/como-conheci-sua-mae.jpg);
     height:600px;
     background-size: cover;
 

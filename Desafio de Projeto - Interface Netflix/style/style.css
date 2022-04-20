@@ -33,23 +33,33 @@ header .logo {
     color: var(--vermelho);
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
+    text-decoration: none;
 }
 
-header nav a{
+.logo a{
+    text-decoration: none;
+    color: var(--vermelho);
+}
+
+nav {
+    padding-right: 15px;
+}
+header nav a, i{
     text-decoration: none;
     color: var(--cinza);
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
-header nav a:hover{
+header nav a:hover, i:hover{
     color: var(--branco);
 }
+
 
 /*filme principal*/
 
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/the-witcher.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/projeto-adam.jpg');
     height:600px;
     background-size: cover;
 
@@ -59,11 +69,51 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme-principal .descricao {
+.filme-principal-anime {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/mugen-train.jpg');
+    height:600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal-filmes {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/minha-mae-e-uma-peca.jpg');
+    height:600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal-series {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/como-conheci-sua-mae.jpg');
+    height:600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.filme-principal .descricao , .filme-principal-anime .descricao , .filme-principal-filmes .descricao , .filme-principal-series .descricao {
     margin-top: 10px;
     margin-bottom: 40px;
     padding-left: 5px;
+    padding-right: 600px;
 }
+
+/*fim dos filmes principais */
 
 .titulo {
     margin-top: 15%;
@@ -124,3 +174,30 @@ header nav a:hover{
     cursor: pointer;
     transition: .3s ease all;
 }
+
+.busca {
+    background: url() no-repeat, center, right;
+    border: none;
+    padding: 5px;
+    width: 10px;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.busca:focus{
+    width: 200px;
+    border-bottom: solid 1px var(--cinza);
+    outline: none;
+}
+
+
+.top {
+    position: absolute;
+    text-align: center;
+    border-radius: 10%;
+    background-color: var(--vermelho);
+}
+
+
+
+

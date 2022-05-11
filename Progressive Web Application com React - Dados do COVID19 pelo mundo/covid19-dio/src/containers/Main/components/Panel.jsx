@@ -59,6 +59,8 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
             <Select onChange={onChange} value={country}>
               {COUNTRIES.map(renderCountries)}
             </Select>
+            <br/><br/><br/><br/>
+          <Typography variant="body2" component="span" color="primary">Aplicação criada por /geovanaborba (github) para o Bootcamp Web Carrefour da Digital Innovation One - DIO. </Typography>
           </div>
         </div>
         {navigatorHasShare ? renderShareButton : renderCopyButton}

@@ -1,6 +1,13 @@
-* [Link para a PWA no Netlify](https://reactjs-covid19-dio.netlify.app/)
+# [Link para a PWA hospedada no Netlify](https://reactjs-covid19-dio.netlify.app/)
 
-Instrutor: [Bruno Carneiro](https://github.com/Tautorn)
+### Instrutor do projeto: [Bruno Carneiro](https://github.com/Tautorn)
+
+<hr>
+
+### [Tutorial útil sobre hospedar a aplicação no Netlify](https://www.youtube.com/watch?v=inpo5xyXQNk&t=425s)
+*utilizado no terminal o comando "npm run build" para criar uma pasta build/ no projeto e copiá-la no netlify em "Drag and drop your site folder".*
+
+<hr>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
